@@ -1,0 +1,20 @@
+# Versions used in the 6.1 h run on Kaggle (2x Tesla T4, CUDA 13 builds of torch).
+torch==2.14.1
+torchvision==0.29.2
+ultralytics==8.4.215
+transformers==5.20.2
+scipy==1.11.4
+# rfdetr: the version installed on Kaggle was not recorded, so it is left unpinned
+rfdetr[train]
+pycocotools
+numpy
+pandas
+matplotlib
+seaborn
+opencv-python-headless
+pillow
+
+# setuptools 82+ no longer provides pkg_resources, which RF-DETR's training library imports
+setuptools<81
+
+# Do NOT install torchaudio: a version that does not match torch breaks `import transformers`
