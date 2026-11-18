@@ -1,4 +1,4 @@
-# 🚗 Real-Time Object Detection for Self-Driving Cars
+# 🚗 Real-time Object Detection for Self-Driving Cars
 
 > **From a YOLO-vs-SSD experiment to a leakage-free benchmark of 9 real-time detectors on front-camera road scenes**
 
